@@ -1,0 +1,256 @@
+.Home-Header {
+    background-color: #24252A;
+    padding: 10px;
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+}
+
+.Home-Header-Column {
+    text-align: center;
+    width: 15%;
+    position: relative;
+    font-size: 2.5vw;
+}
+
+.Home-Header-Button {
+    height: 49px;
+    width: 10%;
+    font-size: 1.5vw;
+    background-color: rgba(0,136,169,1);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    color: white;
+}
+
+.Home-Header-Button:hover {
+    background-color: rgba(0,136,169, 0.5);
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+li, a, button {
+    font-weight: 500;
+    font-size: 32px;
+    color: #edf0f1;
+    text-decoration: none;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.logo .img-top {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 99;
+}
+
+.logo:hover .img-top{
+    display: inline;
+}
+
+.nav__links {
+    list-style: none;
+}
+
+.nav__links li {
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.nav__links li a, span {
+    transition: all 0.3s ease 0s;
+}
+
+.nav__links li a:hover {
+    color: #0088a9;
+    cursor: pointer;
+}
+
+.nav__links li span:hover {
+    color: #0088a9;
+    cursor: pointer;
+}
+
+
+.dropdown-auth{
+    padding: 9px 25px;
+    background-color: rgba(0,136,169,1);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    font-family: unset;
+}
+
+.dropdown-auth:hover {
+    background-color: rgba(0,136,169,0.5);
+}
+
+.Home-Body {
+    color: white;
+}
+
+.Auth-Form {
+    width: 30%;
+    max-width: 300px;
+    padding: 10px 0px;
+    background-color: white;
+    margin: auto auto;
+    margin-top: 30vh;
+    border-radius: 20px;
+    min-width: 100px;
+    text-align: center;
+}
+
+.Auth-Form-Labels {
+    color: black;
+    font-family: unset;
+    font-size: 20px;
+    font-weight: 500px;
+    display: block;
+}
+
+.Auth-Input {
+    width: 80%;
+    border: 1.5px solid black;
+    padding: 15px 15px;
+    border-radius: 5px;
+    display: block;
+    margin: 5px auto 5px auto;
+    font-family: unset;
+    font-size: 16px;
+}
+
+.Auth-Form-Button {
+    padding: 9px 25px;
+    background-color: rgba(0,136,169,1);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    font-family: unset;
+    font-size: 16px;
+}
+
+.Auth-Form-Button:hover {
+    background-color: rgba(0,136,169,0.5);
+}
+
+.Register-Successful {
+    color: green;
+    font-family: unset;
+    font-size: 12px;
+    font-weight: 500px;
+    display: block;
+}
+
+.Register-Unsuccessful {
+    color: red;
+    font-family: unset;
+    font-size: 12px;
+    font-weight: 500px;
+    display: block;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+    list-style: none;
+  }
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    z-index: 1;
+    text-align: center !important; 
+    margin-right: 30px;
+}
+
+.dropdown-content button {
+    margin-top: 1px;
+    padding: 9px 25px;
+    background-color: rgba(0,136,169,1);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    font-family: unset;
+}
+
+  
+.dropdown-content button:hover {
+    background-color: rgba(0,136,169,0.5);
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.Website-Introduction {
+    margin-top: 10vh;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.AgGrid-Rankings {
+    width: 90vw;
+    max-width: 819px;
+    margin-top: 10vh;
+    margin-left: auto;
+    margin-right: auto;
+    height: 350px;
+    max-height: 60vh;
+}
+
+.AgGrid-Search {
+    width: 90vw;
+    max-width: 819px;
+    margin-top: 10vh;
+    margin-left: auto;
+    margin-right: auto;
+    height: 300px;
+    max-height: 60vh;
+}
+
+.AgGrid-Factors {
+    width: 90vw;
+    height: 800px;
+    max-height: 60vh;
+    max-width: 1500px;
+    margin-top: 10vh;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.AgGrid-Factors-Params input {
+    display: inline-block;
+}
+
+.AgGrid-Factors-Params-Container {
+    display: flex;
+    justify-content: center;
+}
+
+.AgGrid-Factors-Inputs {
+    margin-bottom: 5px;
+    font-size: 16px;
+}
